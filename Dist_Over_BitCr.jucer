@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ZaN8EX" name="Dist_Over_BitCr" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="eDPODc" name="Dist_Over_BitCr">
+    <GROUP id="{09CECECF-D7E6-4B92-C274-A8323CB1D8AF}" name="Parameter Control">
+      <FILE id="KudATO" name="ASHUMParameterComboBox.cpp" compile="1" resource="0"
+            file="Source/ASHUMParameterComboBox.cpp"/>
+      <FILE id="n8f0sp" name="ASHUMParameterComboBox.h" compile="0" resource="0"
+            file="Source/ASHUMParameterComboBox.h"/>
+      <FILE id="YXE6Hz" name="ASHUMParameterSlider.cpp" compile="1" resource="0"
+            file="Source/ASHUMParameterSlider.cpp"/>
+      <FILE id="aV7lQV" name="ASHUMParameterSlider.h" compile="0" resource="0"
+            file="Source/ASHUMParameterSlider.h"/>
+    </GROUP>
+    <GROUP id="{3F1938D6-6B4B-D1DE-9946-85B5B8B2B1B5}" name="Panels">
+      <FILE id="wRaxvh" name="ASHUMCenterPanel.cpp" compile="1" resource="0"
+            file="Source/ASHUMCenterPanel.cpp"/>
+      <FILE id="T9xgQb" name="ASHUMCenterPanel.h" compile="0" resource="0"
+            file="Source/ASHUMCenterPanel.h"/>
+      <FILE id="HsV4O4" name="ASHUMGainPanel.cpp" compile="1" resource="0"
+            file="Source/ASHUMGainPanel.cpp"/>
+      <FILE id="EtIkL3" name="ASHUMGainPanel.h" compile="0" resource="0"
+            file="Source/ASHUMGainPanel.h"/>
+      <FILE id="WBpbgD" name="ASHUMMainPanel.cpp" compile="1" resource="0"
+            file="Source/ASHUMMainPanel.cpp"/>
+      <FILE id="eOnk2B" name="ASHUMMainPanel.h" compile="0" resource="0"
+            file="Source/ASHUMMainPanel.h"/>
+      <FILE id="HLbxhp" name="ASHUMPanelBase.cpp" compile="1" resource="0"
+            file="Source/ASHUMPanelBase.cpp"/>
+      <FILE id="eURRiJ" name="ASHUMPanelBase.h" compile="0" resource="0"
+            file="Source/ASHUMPanelBase.h"/>
+    </GROUP>
+    <GROUP id="{535B4DC0-8F2D-D551-8FBC-7238D71831D3}" name="_utils">
+      <FILE id="YdR5yz" name="ASHUMParameters.h" compile="0" resource="0"
+            file="Source/ASHUMParameters.h"/>
+      <FILE id="shcCp5" name="ASHUMPluginEnums.h" compile="0" resource="0"
+            file="Source/ASHUMPluginEnums.h"/>
+      <FILE id="ejwb9o" name="ASHUMUIDefines.h" compile="0" resource="0"
+            file="Source/ASHUMUIDefines.h"/>
+    </GROUP>
+    <GROUP id="{A2B2708B-FE97-0A4D-EC79-F873957E3615}" name="DSP">
+      <FILE id="ZCD9Dm" name="ASHUMDist.cpp" compile="1" resource="0" file="Source/ASHUMDist.cpp"/>
+      <FILE id="xohsjF" name="ASHUMDist.h" compile="0" resource="0" file="Source/ASHUMDist.h"/>
+    </GROUP>
+    <GROUP id="{C940F1AE-69EA-9EC0-4EB8-56248844A506}" name="Source">
+      <FILE id="fiv46C" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="pPnYe1" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="kp1gZz" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="ZMaRoR" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Dist_Over_BitCr"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Dist_Over_BitCr"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Program Files/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
