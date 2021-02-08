@@ -34,9 +34,13 @@ This is an implementation of 4 types of dirtortion effects.
     └── README.md
 
 When the plugin runs PluginProcessor is responsible for DSP and PluginEditor for UI.
+
 For each buffer block PluginProcessor calls Dist.cpp process method to apply effect on the audio.
+
 When started plugin processor creates parameters that DAW can control in the plugin.
+
 Plugin editor renders the MainPanel which renders 2 gain panels and a center panel.
+
 Main panel listens to the changes of the center panel combobox to change the view corresponding to the different distortion type.
 
 
