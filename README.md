@@ -10,6 +10,7 @@ This is an implementation of 4 types of dirtortion effects.
   4) pow3
 
 The structure of the project:
+
   .
   ├── Parameter Control
   │     ├── ASHUMParameterComboBox.h
