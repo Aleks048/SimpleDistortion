@@ -19,9 +19,6 @@ This is an implementation of 4 types of dirtortion effects.
     │     ├── ASHUMMainPanel.h            
     │     ├── ASHUMGainPanel.h
     │     └── ASHUMCenterPanel.h
-    ├── Parameter Control
-    │     ├── ASHUMParameterComboBox.h
-    │     └── ASHUMParameterSlider.h
     ├── utils                              # unitls used for data organization
     │     ├── ASHUMParameters.h
     │     ├── ASHUMPluginEnums.h
