@@ -11,10 +11,10 @@ This is an implementation of 4 types of dirtortion effects.
 
 ### The structure of the project:
     .
-    ├── Parameter Control
+    ├── Parameter Control                  # The files are used to connect UI to the audio processor parameters.
     │     ├── ASHUMParameterComboBox.h
     │     └── ASHUMParameterSlider.h
-    ├── Panels
+    ├── Panels                             # All the Panel files are UI. They inherit from BasePanel.h. MainPanel.h renders all the other panels and controls them.
     │     ├── ASHUMPanelBase.h
     │     ├── ASHUMMainPanel.h            
     │     ├── ASHUMGainPanel.h
@@ -22,25 +22,17 @@ This is an implementation of 4 types of dirtortion effects.
     ├── Parameter Control
     │     ├── ASHUMParameterComboBox.h
     │     └── ASHUMParameterSlider.h
-    ├── utils
+    ├── utils                              # unitls used for data organization
     │     ├── ASHUMParameters.h
     │     ├── ASHUMPluginEnums.h
     │     └── ASHUMUIDefines.h
-    ├── DSP
+    ├── DSP                                # All the all the DSP files.
     │     └── ASHUMUIDist.h
-    ├── Source
+    ├── Source                             # PluginEditor.h and PluginProcessor.h are provided by JUCE and modified only slightly.
     │     ├── PluginProcessor.h
     │     └── PluginEditor.h
     └── README.md
 
 
-All the DSP is in the Dist.h file.
 
-Parameters.h , PluginEnums.h, Defines.h are unitls used for data organization.
-
-All the Panels files are UI. They inherit from BasePanel.h. MainPanel.h renders all the other panels and controls them.
-
-ParameterComboBox.h and ParameterSlider.h are used to connect UI to the audio processor parameters.
-
-PluginEditor.h and PluginProcessor.h are provided by JUCE and modified only slightly.
 
