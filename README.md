@@ -7,3 +7,4 @@ This is an implementation of 4 types of dirtortion effects.
   3) tanh
   4) pow3
 
+All the DSP is in the Dist files.
