@@ -14,7 +14,7 @@ This is an implementation of 4 types of dirtortion effects.
     ├── Parameter Control                  # The files are used to connect UI to the audio processor parameters.
     │     ├── ASHUMParameterComboBox.h
     │     └── ASHUMParameterSlider.h
-    ├── Panels                             # All the Panel files are UI. They inherit from BasePanel.h. MainPanel.h renders all the other panels and controls them.
+    ├── Panels                             # All the Panel files are UI. They inherit from BasePanel.h.
     │     ├── ASHUMPanelBase.h
     │     ├── ASHUMMainPanel.h            
     │     ├── ASHUMGainPanel.h
